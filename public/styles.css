@@ -1,0 +1,54 @@
+
+body{
+    margin-left: 20px;
+    background-color: rgb(252, 244, 209);
+}
+
+.chat{
+    background-color: #f8f391;
+    padding: 20px;
+    margin: 12px;
+    border-radius: 12px;
+    border: 2px solid black;
+    display: inline-block;
+}
+
+.msg{
+    background-color: burlywood;
+    padding: 5px 15px;
+    border-radius: 12px;
+}
+
+.btn{
+    margin: 12px;
+    padding :15px 15px;
+    background-color: rgb(205, 208, 49); 
+    border-radius: 12px;
+    border: 1px solid black;
+}
+.btn:hover{
+    background-color: #4d4b07;
+    cursor: pointer;
+    box-shadow: 3px 3px 3px;
+    color: white;
+}
+
+#edit-btn{
+    border: none;
+    border-radius: 12px;
+    padding: 8px;
+    background-color: rgb(205, 208, 49);
+    margin-left: 52px;
+    cursor: pointer;
+    border: 1px solid black;
+}
+#delete-btn{
+    border: none;
+    border-radius: 12px;
+    padding: 8px;
+    background-color: rgb(205, 208, 49);
+    margin-left: 52px;
+    margin-top:2px;
+    cursor: pointer;
+    border: 1px solid black;
+}

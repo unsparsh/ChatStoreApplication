@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chat Application</title>
+    <style>
+        body {
+            font-family: 'Georgia', serif;
+            background-color: rgb(252, 244, 209);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            color: #333;
+        }
+        .container {
+            text-align: center;
+            background-color: #fff;
+            padding: 50px 70px;
+            border-radius: 10px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+            max-width: 500px;
+            border: 1px solid #ccc;
+        }
+        h1 {
+            font-size: 2.5em;
+            margin-bottom: 20px;
+            font-weight: bold;
+            color: #2c3e50;
+        }
+        p {
+            font-size: 1.2em;
+            margin-bottom: 40px;
+            color: #7f8c8d;
+        }
+        .enter-button {
+            display: inline-block;
+            padding: 15px 40px;
+            font-size: 1.2em;
+            color: #1a1818;
+            background-color: rgb(205, 208, 49);
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            text-decoration: none;
+            transition: background-color 0.3s ease;
+        }
+        .enter-button:hover {
+            background-color: #4d4b07;
+            color: #fff;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Welcome to Chat Application</h1>
+        <p>Store and manage your chats securely.</p>
+        <a href="/chats" class="enter-button">Enter Chat Area</a>
+    </div>
+</body>
+</html>
