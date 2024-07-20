@@ -10,18 +10,7 @@ async function main() {
 }
 
 let AllChats = [
-  {
-    from:"chinsa",
-    to:"jaan",
-    msg:"Hi hetal, kkrho?",
-    created_at: new Date() //class of js that crates new date by default
-},
-{
-    from:"sparsh",
-    to:"maa",
-    msg:"moms magic kkrho?",
-    created_at: new Date() //class of js that crates new date by default
-},
+  
 {
     from:"rohit",
     to:"mohit",
@@ -31,7 +20,7 @@ let AllChats = [
 {
     from:"anil",
     to:"sunil",
-    msg:"we are parents of pragati and gori",
+    msg:"we are parents ",
     created_at: new Date() //class of js that crates new date by default
 },
 
